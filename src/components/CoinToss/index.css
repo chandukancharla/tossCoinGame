@@ -1,0 +1,24 @@
+.container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.inner-container {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+.image {
+  height: 150px;
+  width: 150px;
+}
+.result-container {
+  display: flex;
+  justify-content: space-between;
+}
